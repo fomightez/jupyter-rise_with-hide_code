@@ -12,4 +12,5 @@ dependencies:
   - pip
   - pip:
     - jupyter_contrib_nbextensions
-    - hide_cod
+    - hide_code
+    
