@@ -9,6 +9,7 @@ dependencies:
   - pandas
   - bokeh
   - rise
+  - pip
   - pip:
     - jupyter_contrib_nbextensions
     - hide_cod
