@@ -9,7 +9,7 @@
 jupyter nbextension install --sys-prefix hide_code
 jupyter nbextension enable --sys-prefix hide_code
 #jupyter serverextension enable --sys-prefix jupyter_server_proxy
-jupyter serverextension enable --sys-prefix hide_code
+jupyter serverextension enable --py hide_code
 
 # Try to fix the install based on https://github.com/kirbs-/hide_code/issues/29#issuecomment-274800019
 # Note that I used that even though different because old code listed at that link gave error saying
