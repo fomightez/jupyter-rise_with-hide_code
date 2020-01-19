@@ -1,4 +1,4 @@
-name: rise-environment
+name: rise-environment_plus_hide_code
 channels:
   - damianavila82
   - conda-forge
@@ -9,8 +9,6 @@ dependencies:
   - pandas
   - bokeh
   - rise
-  - pdfkit
-  - wkhtmltopdf
   - pip
   - pip:
     - jupyter_contrib_nbextensions
