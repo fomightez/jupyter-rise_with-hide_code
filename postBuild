@@ -6,6 +6,6 @@
 # and https://jupyter-notebook.readthedocs.io/en/4.x/examples/Notebook/rstversions/Distributing%20Jupyter%20Extensions%20as%20Python%20Packages.html#enable-a-server-extension
 # and https://jupyter-notebook.readthedocs.io/en/4.x/examples/Notebook/rstversions/Distributing%20Jupyter%20Extensions%20as%20Python%20Packages.html#install-and-enable-the-server-extension-and-nbextension
 jupyter contrib nbextension install --user
-jupyter nbextension install --sys-prefix hide_code
+#jupyter nbextension install --sys-prefix hide_code
 jupyter nbextension enable --sys-prefix hide_code
 jupyter serverextension enable --sys-prefix hide_code
