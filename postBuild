@@ -10,3 +10,8 @@ jupyter nbextension install --sys-prefix hide_code
 jupyter nbextension enable --sys-prefix hide_code
 #jupyter serverextension enable --sys-prefix jupyter_server_proxy
 jupyter serverextension enable --sys-prefix hide_code
+
+# Try to fix the install based on https://github.com/kirbs-/hide_code/issues/29#issuecomment-274800019
+# Note that I used that even though different because old code listed at that link gave error saying
+# no install attriibute & only thing with install I saw when I ran `!python -c "import hide_code.hide_code as hc;print(dir(hc));"`
+python -c "import hide_code.hide_code as hc;hc.install_bootstrapped_files()" 
