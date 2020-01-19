@@ -11,6 +11,7 @@ dependencies:
   - rise
   - pip
   - pip:
+    - pdfkit
     - jupyter_contrib_nbextensions
     - jupyter-server-proxy
     - hide_code
