@@ -9,8 +9,11 @@ dependencies:
   - pandas
   - bokeh
   - rise
+  - pdfkit
+  - wkhtmltopdf
   - pip
   - pip:
     - jupyter_contrib_nbextensions
+    - jupyter-server-proxy
     - hide_code
-    
+
