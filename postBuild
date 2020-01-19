@@ -5,11 +5,11 @@
 # with server extension based on https://github.com/matheusmota/facens-dataviz/blob/54cbfb373916c7180c65c2ed7500ac890252bd98/binder/postBuild
 # and https://jupyter-notebook.readthedocs.io/en/4.x/examples/Notebook/rstversions/Distributing%20Jupyter%20Extensions%20as%20Python%20Packages.html#enable-a-server-extension
 # and https://jupyter-notebook.readthedocs.io/en/4.x/examples/Notebook/rstversions/Distributing%20Jupyter%20Extensions%20as%20Python%20Packages.html#install-and-enable-the-server-extension-and-nbextension
-#jupyter contrib nbextension install --user
-#jupyter nbextension install --sys-prefix hide_code
+jupyter contrib nbextension install --user
+jupyter nbextension install --sys-prefix hide_code
 jupyter nbextension enable --sys-prefix hide_code
 #jupyter serverextension enable --sys-prefix jupyter_server_proxy
-jupyter serverextension enable --py hide_code
+jupyter serverextension enable --sys-prefix hide_code
 
 # Try to fix the install based on https://github.com/kirbs-/hide_code/issues/29#issuecomment-274800019
 # Note that I used that even though different because old code listed at that link gave error saying
