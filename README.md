@@ -53,7 +53,7 @@ By combining with Jupyter-RISE, now using the `hide_code` menu, you can toggle h
 
 ## Technical notes:
 
-Thhe `hide_code` extension was described as compatible with Jupyter-RISE [here](https://github.com/damianavila/RISE/issues/32#issuecomment-493631621). And Jupyter-RISE works via BINDER as seen in the OFFICIAL [Binder example for the RISE plugin for presentations [here](https://github.com/binder-examples/jupyter-rise). Although because it has some complex requirements, it was not that easy to add hide-code along with Binder and so it wasn't straighforward for those wishing to explore the use of Jupyter-RISE in conjunction with the `hide-code` extension. Now it is. Addition and enabling of the hide_code extension for Binder worked out [here](https://github.com/fomightez/jupyter_hide_code).
+Thhe `hide_code` extension was described as compatible with Jupyter-RISE [here](https://github.com/damianavila/RISE/issues/32#issuecomment-493631621). And Jupyter-RISE works via BINDER as can be seen via [the OFFICIAL Binder example for the RISE plugin for presentations](https://github.com/binder-examples/jupyter-rise). Although because it has some complex requirements, it was not that easy to add hide-code along with Binder and so it wasn't straighforward for those wishing to explore the use of Jupyter-RISE in conjunction with the `hide-code` extension. Now it is. Addition and enabling of the hide_code extension for Binder worked out [here](https://github.com/fomightez/jupyter_hide_code).
 
 -----
 
