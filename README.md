@@ -10,7 +10,15 @@ Note this builds on the [Binder example for the RISE plugin for presentations](h
 
 Using the `hide_code` menu, you can toggle hiding code prompts, code, or output, see [here](https://github.com/kirbs-/hide_code) and the designations are repsected in the Jupyter-RISE presentation.
 
+----
+
+## How to use
+
+This repo is designed as a guide for making repositories where both Jupyter-RISE and hide_code work. Copy it as a template using the `Use this template` button and add in your own content. Don't forget to edit the code for the badges to point at your repository.
+
 -----
+
+
 
 ## About Jupyter-RISE
 
@@ -51,13 +59,9 @@ hide_code is a Jupyter notebook extension to selectively hide code, prompts and 
 
 By combining with Jupyter-RISE, now using the `hide_code` menu, you can toggle hiding code prompts, code, or output, see [here](https://github.com/kirbs-/hide_code) and the designations are repsected in the Jupyter-RISE presentation mode.
 
----
 
-## How to use
 
-This repo is designed as a guide for making repositories where both Jupyter-RISE and hide_code work. Copy it as a template using the `Use this template` button and add in your own content. Don't forget to edit the code for the badges to point at your repository.
-
----
+----
 
 ## Technical notes:
 
