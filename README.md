@@ -10,6 +10,8 @@ Note this builds on the [Binder example for the RISE plugin for presentations](h
 
 -----
 
+## About Jupyter-RISE
+
 RISE allows you to quickly generate a live, interactive presentation from a
 Jupyter Notebook that is connected to the underlying Kernel of the notebook.
 Using a new feature for automatically launching
@@ -35,6 +37,8 @@ presentation will automatically begin.
 
 See the [RISE Documentation](https://damianavila.github.io/RISE/)
 for more information.
+
+If you don't need the hide_code extension enabled along with Jupyter-RISE, you may be more interested in the [Binder example for the RISE plugin for presentations](https://github.com/binder-examples/jupyter-rise)
 
 
 -----
