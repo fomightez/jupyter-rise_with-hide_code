@@ -59,4 +59,4 @@ Thhe `hide_code` extension was described as compatible with Jupyter-RISE [here](
 
 [![Binder](https://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/fomightez/jupyter-rise_with-hide_code/master?filepath=index.ipynb)
 
------
+
