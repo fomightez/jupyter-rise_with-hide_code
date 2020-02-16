@@ -6,7 +6,9 @@ Click a `launch binder` badge anywhere on this page to begin.
 
 -----
 
-Note this builds on the [Binder example for the RISE plugin for presentations](https://github.com/binder-examples/jupyter-rise) to add the [hide_code extension](https://github.com/kirbs-/hide_code) as well. **No installation needed**. Using the `hide_code` menu, you can toggle hiding code prompts, code, or output, see [here](https://github.com/kirbs-/hide_code) and the designations are repsected in the Jupyter-RISE presentation.
+Note this builds on the [Binder example for the RISE plugin for presentations](https://github.com/binder-examples/jupyter-rise) to add the [hide_code extension](https://github.com/kirbs-/hide_code) as well. **No installation needed**. 
+
+Using the `hide_code` menu, you can toggle hiding code prompts, code, or output, see [here](https://github.com/kirbs-/hide_code) and the designations are repsected in the Jupyter-RISE presentation.
 
 -----
 
@@ -48,6 +50,12 @@ If you don't need the hide_code extension enabled along with Jupyter-RISE, you m
 hide_code is a Jupyter notebook extension to selectively hide code, prompts and outputs with PDF and HTML exporting support.
 
 By combining with Jupyter-RISE, now using the `hide_code` menu, you can toggle hiding code prompts, code, or output, see [here](https://github.com/kirbs-/hide_code) and the designations are repsected in the Jupyter-RISE presentation mode.
+
+---
+
+## How to use
+
+This repo is designed as a guide for making repositories where both Jupyter-RISE and hide_code work. Copy it as a template using the `Use this template` button and add in your own content. Don't forget to edit the code for the badges to point at your repository.
 
 ---
 
