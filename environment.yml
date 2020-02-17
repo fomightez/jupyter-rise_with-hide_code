@@ -13,5 +13,5 @@ dependencies:
   - pip:
     - pdfkit
     - jupyter_contrib_nbextensions
-    - hide_code
+    - hide_code==0.5.2
 
